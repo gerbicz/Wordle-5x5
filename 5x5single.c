@@ -5,7 +5,7 @@
 // Fast search for Matt Parker's 5 five letter words that has 25 different letters from a-z.
 
 // my long compilation line:
-// g++ -mtune=skylake -march=skylake -fomit-frame-pointer -flto -frename-registers -mavx2 -m64 -O2 -o s some.c
+// g++ -mtune=skylake -march=skylake -fomit-frame-pointer -flto -frename-registers -mavx2 -m64 -O2 -o s 5x5single.c
 
 // in nutshell the algorithm:
 // define a new alphabet where rare letters comes first, sort the words by this way.
